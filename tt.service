@@ -1,0 +1,10 @@
+[Unit]
+Description=Kryptex
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=sh /home/freenet/start.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=sh /home/freenet/start.sh
+ExecStart=sh /root/start.sh
 
 [Install]
 WantedBy=multi-user.target

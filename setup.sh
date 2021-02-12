@@ -1,4 +1,4 @@
-sudo apt autoremove cloud-init -y && sudo apt update && sudo apt install -y screen
+sudo apt autoremove cloud-init -y
 wget https://raw.githubusercontent.com/nedogimov/mining-vds/main/kk && sudo chmod 777 kk && sudo cp kk /root
 wget https://raw.githubusercontent.com/nedogimov/mining-vds/main/start.sh && sudo cp start.sh /root
 wget https://raw.githubusercontent.com/nedogimov/mining-vds/main/tt.service
